@@ -1,0 +1,86 @@
+#f1{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+hr{
+  margin: 10px 5px 4px 2px;
+  border: 2px solid burlywood;
+  width: 50%;
+}
+body{
+  font-family:"roboto",serif;
+  background-color: beige;
+  color:cornflowerblue;
+  line-height: 2;
+  margin:0;
+  padding:0;
+}
+h1,h2{
+  font-weight: 700;
+}
+p,a{
+  font-weight: 400;
+}
+a{
+  color: blueviolet;
+  text-decoration:none;
+  display: inline-block;
+  margin: 5px;
+}
+a:hover{
+  color:aquamarine;
+}
+header,footer{
+  background:linear-gradient(to right ,violet,rgb(249, 104, 104), violet);
+  color:crimson;
+  padding:0%;
+  text-align: center;
+}
+.icon-link{
+  display: inline-block;
+  margin:0 10px;
+  width:30px;
+  height:20px;
+  border-radius:2px;
+  color:cadetblue;
+  font-size:20px;
+  line-height:1.5;
+  text-align:center;
+}
+.icon.link.hover{
+  transform:scale(1,1);
+  color:blue;
+}
+ul{
+  list-style-position: inside;
+}
+.fas, .fab{
+  margin-right: 1px;
+  color:inherit;
+}
+section{
+  padding:20px;
+  text-align: center;
+}
+img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px grey;
+  object-fit: cover;
+} 
+ul li{
+  display: inline-block;
+  background: rgb(160, 44, 129);
+  padding:10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px  grey;
+  margin:0 5px ;
+}
+form{
+  width: 100%;
+  max-width:500px;
+}
+
